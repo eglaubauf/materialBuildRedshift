@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shelfDocument>
+  <!-- This file contains definitions of shelves, toolbars, and tools.
+ It should not be hand-edited when it is being used by the application.
+ Note, that two definitions of the same element are not allowed in
+ a single file. -->
+
+  <shelfSet name="shelf_set_1" label="Create and Refine">
+    <memberToolshelf name="MatBuildRS"/>
+  </shelfSet>
+
+  <toolshelf name="MatBuildRS" label="MatBuildRS">
+    <memberTool name="RS MaterialBuild"/>
+  </toolshelf>
+
+  <tool name="RS MaterialBuild" label="RS MaterialBuild" icon="PLASMA_App">
+    <script scriptType="python"><![CDATA[import eg_materialBuild_RS
+reload(eg_materialBuild_RS)
+eg_materialBuild_RS.run()]]></script>
+  </tool>
+</shelfDocument>
