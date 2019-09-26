@@ -31,6 +31,12 @@ import sys
 sys.path.append("<PathToLib>\scripts")
 ```
 
+### TODO:
+  - TriPlanar
+  - .rs-tex conversion
+  - User Checkboxes
+  - easier configurability
+ 
 ### Notes:
 
 All of the scripts are free of charge for free use, commercial or non commercial whatsoever.  But this script may break your workflow. 
