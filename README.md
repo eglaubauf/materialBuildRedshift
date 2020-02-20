@@ -1,6 +1,10 @@
 
 ## A MaterialBuilder Script for Redshift in SideFx Houdini
 
+### Repository moved permanently
+
+https://github.com/eglaubauf/egRedshiftTools 
+
 ### Features
 
 - Provides a Materialbuilder for PrincipledShader based on a Texture-Selection by the user
